@@ -1,0 +1,62 @@
+{
+ "id": "f0354abe-fd9f-48d7-887c-a8c1a9c3f88a",
+ "brand": "Lenovo",
+ "name": "Thinkpad P1",
+ "cpu": {
+  "brand": "AMD",
+  "name": "Ryzen 3 PRO 3200GE",
+  "number_cores": 4,
+  "number_threads": 7,
+  "min_ghz": 3.0504909116521217,
+  "max_ghz": 3.16513585319397
+ },
+ "ram": {
+  "value": "14",
+  "unit": "GIGAYTE"
+ },
+ "gpus": [
+  {
+   "brand": "NVIDIA",
+   "name": "GTX 1070",
+   "min_ghz": 1.450130142806834,
+   "max_ghz": 1.7802293547245436,
+   "memory": {
+    "value": "3",
+    "unit": "GIGAYTE"
+   }
+  }
+ ],
+ "storages": [
+  {
+   "driver": "HDD",
+   "memory": {
+    "value": "1",
+    "unit": "TERABYTE"
+   }
+  },
+  {
+   "driver": "SSD",
+   "memory": {
+    "value": "182",
+    "unit": "GIGAYTE"
+   }
+  }
+ ],
+ "screen": {
+  "size_inch": 16.152449,
+  "resolution": {
+   "width": 6012,
+   "height": 3382
+  },
+  "panel": "OLED",
+  "multitouch": false
+ },
+ "keyboard": {
+  "layout": "QWERTZ",
+  "backlit": true
+ },
+ "weight_kg": 2.5122987009253395,
+ "price_usd": 2855.010256202957,
+ "release_year": 2019,
+ "updated_at": "2021-03-24T18:06:13.827481811Z"
+}
