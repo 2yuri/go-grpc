@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package pcbook;
+package grpc;
 option go_package = "/pb";
 
 message Memory {

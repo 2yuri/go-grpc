@@ -1,27 +1,27 @@
 {
- "id": "f0354abe-fd9f-48d7-887c-a8c1a9c3f88a",
- "brand": "Lenovo",
- "name": "Thinkpad P1",
+ "id": "74af4aeb-8d35-49ff-a552-12dd8f518fa7",
+ "brand": "Dell",
+ "name": "XPS",
  "cpu": {
-  "brand": "AMD",
-  "name": "Ryzen 3 PRO 3200GE",
-  "number_cores": 4,
-  "number_threads": 7,
-  "min_ghz": 3.0504909116521217,
-  "max_ghz": 3.16513585319397
+  "brand": "Intel",
+  "name": "Core i9-9980HK",
+  "number_cores": 3,
+  "number_threads": 3,
+  "min_ghz": 2.3251233085860803,
+  "max_ghz": 3.2738984490331067
  },
  "ram": {
-  "value": "14",
+  "value": "62",
   "unit": "GIGAYTE"
  },
  "gpus": [
   {
-   "brand": "NVIDIA",
-   "name": "GTX 1070",
-   "min_ghz": 1.450130142806834,
-   "max_ghz": 1.7802293547245436,
+   "brand": "AMD",
+   "name": "RX Vega-56",
+   "min_ghz": 1.058233010782572,
+   "max_ghz": 1.2301976363008171,
    "memory": {
-    "value": "3",
+    "value": "6",
     "unit": "GIGAYTE"
    }
   }
@@ -37,26 +37,26 @@
   {
    "driver": "SSD",
    "memory": {
-    "value": "182",
+    "value": "722",
     "unit": "GIGAYTE"
    }
   }
  ],
  "screen": {
-  "size_inch": 16.152449,
+  "size_inch": 14.86734,
   "resolution": {
-   "width": 6012,
-   "height": 3382
+   "width": 6049,
+   "height": 3403
   },
-  "panel": "OLED",
-  "multitouch": false
+  "panel": "IPS",
+  "multitouch": true
  },
  "keyboard": {
   "layout": "QWERTZ",
   "backlit": true
  },
- "weight_kg": 2.5122987009253395,
- "price_usd": 2855.010256202957,
- "release_year": 2019,
- "updated_at": "2021-03-24T18:06:13.827481811Z"
+ "weight_kg": 2.5987583209609713,
+ "price_usd": 2005.356416435321,
+ "release_year": 2018,
+ "updated_at": "2021-03-25T20:47:22.089903342Z"
 }

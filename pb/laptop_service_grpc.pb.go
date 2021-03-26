@@ -31,7 +31,7 @@ func NewLaptopServiceClient(cc grpc.ClientConnInterface) LaptopServiceClient {
 
 func (c *laptopServiceClient) CreateLaptop(ctx context.Context, in *CreateLaptopRequest, opts ...grpc.CallOption) (*CreateLaptopResponse, error) {
 	out := new(CreateLaptopResponse)
-	err := c.cc.Invoke(ctx, "/pcbook.LaptopService/CreateLaptop", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/grpc.LaptopService/CreateLaptop", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -43,7 +43,6 @@ func (c *laptopServiceClient) CreateLaptop(ctx context.Context, in *CreateLaptop
 // for forward compatibility
 type LaptopServiceServer interface {
 	CreateLaptop(context.Context, *CreateLaptopRequest) (*CreateLaptopResponse, error)
-	mustEmbedUnimplementedLaptopServiceServer()
 }
 
 // UnimplementedLaptopServiceServer must be embedded to have forward compatible implementations.
@@ -76,7 +75,7 @@ func _LaptopService_CreateLaptop_Handler(srv interface{}, ctx context.Context, d
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/pcbook.LaptopService/CreateLaptop",
+		FullMethod: "/grpc.LaptopService/CreateLaptop",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(LaptopServiceServer).CreateLaptop(ctx, req.(*CreateLaptopRequest))
@@ -88,7 +87,7 @@ func _LaptopService_CreateLaptop_Handler(srv interface{}, ctx context.Context, d
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var LaptopService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "pcbook.LaptopService",
+	ServiceName: "grpc.LaptopService",
 	HandlerType: (*LaptopServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
