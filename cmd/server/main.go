@@ -1,19 +1,17 @@
 package main
 
 import (
-	"flag"
 	"fmt"
-	"google.golang.org/grpc"
 	"grpc-course/pb"
 	"grpc-course/service"
 	"log"
+
 	"net"
+
+	"google.golang.org/grpc"
 )
 
-
-func main(){
-	flag.Parse()
-
+func main() {
 	port := ":5000"
 	fmt.Printf("server running at port %v\n", port)
 

@@ -1,25 +1,25 @@
 {
- "id": "74af4aeb-8d35-49ff-a552-12dd8f518fa7",
+ "id": "e83ad7e7-23bd-4976-a954-1523a8d45097",
  "brand": "Dell",
- "name": "XPS",
+ "name": "Alienware",
  "cpu": {
   "brand": "Intel",
-  "name": "Core i9-9980HK",
-  "number_cores": 3,
-  "number_threads": 3,
-  "min_ghz": 2.3251233085860803,
-  "max_ghz": 3.2738984490331067
+  "name": "Core i5-9400F",
+  "number_cores": 5,
+  "number_threads": 11,
+  "min_ghz": 2.2372600422425504,
+  "max_ghz": 2.377905833235333
  },
  "ram": {
-  "value": "62",
+  "value": "29",
   "unit": "GIGAYTE"
  },
  "gpus": [
   {
    "brand": "AMD",
-   "name": "RX Vega-56",
-   "min_ghz": 1.058233010782572,
-   "max_ghz": 1.2301976363008171,
+   "name": "RX 5700-XT",
+   "min_ghz": 1.4512488750454031,
+   "max_ghz": 1.801210998826072,
    "memory": {
     "value": "6",
     "unit": "GIGAYTE"
@@ -30,33 +30,33 @@
   {
    "driver": "HDD",
    "memory": {
-    "value": "1",
+    "value": "4",
     "unit": "TERABYTE"
    }
   },
   {
    "driver": "SSD",
    "memory": {
-    "value": "722",
+    "value": "1002",
     "unit": "GIGAYTE"
    }
   }
  ],
  "screen": {
-  "size_inch": 14.86734,
+  "size_inch": 13.779894,
   "resolution": {
-   "width": 6049,
-   "height": 3403
+   "width": 3656,
+   "height": 2057
   },
   "panel": "IPS",
   "multitouch": true
  },
  "keyboard": {
-  "layout": "QWERTZ",
-  "backlit": true
+  "layout": "AZERTY",
+  "backlit": false
  },
- "weight_kg": 2.5987583209609713,
- "price_usd": 2005.356416435321,
- "release_year": 2018,
- "updated_at": "2021-03-25T20:47:22.089903342Z"
+ "weight_kg": 1.0578609921296822,
+ "price_usd": 2444.3313030923937,
+ "release_year": 2019,
+ "updated_at": "2021-03-26T16:36:15.463160757Z"
 }
